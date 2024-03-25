@@ -66,20 +66,6 @@
   position: relative;
 }
 
-.managePost button {
-  background-color: transparent;
-  border: none;
-  font-style: italic;
-  font-size: 16px;
-  cursor: pointer;
-  color: #144272;
-}
-
-.managePost button:hover {
-  text-decoration: underline;
-  text-underline-position: under;
-}
-
 @media (max-width: 1380px) {
   .singlePostContainer {
     grid-template-columns: 1fr 1fr;

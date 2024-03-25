@@ -1,12 +1,4 @@
-.errorMessage {
-  color: darkred;
-}
-
-.successMessage {
-  color: darkgreen;
-}
-
-.deleteButton {
+.editPostButton {
   background-color: transparent;
   border: none;
   font-style: italic;
@@ -15,7 +7,7 @@
   color: #144272;
 }
 
-.deleteButton:hover {
+.editPostButton:hover {
   text-decoration: underline;
   text-underline-position: under;
 }
