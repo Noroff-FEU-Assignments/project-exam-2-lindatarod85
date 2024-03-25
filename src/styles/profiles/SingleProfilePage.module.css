@@ -1,0 +1,182 @@
+.singleProfileContainer {
+  width: 1300px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.profileTopContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.bannerContainer {
+  width: 600px;
+}
+
+.followContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.followContainer h3 {
+  margin: 0 0 10px 0;
+}
+
+.bannerContainer img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.avatarContainer img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarContainer h1 {
+  margin: 0 0 10px 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.countsContainer {
+  margin-top: 20px;
+  display: flex;
+}
+
+.followersContainer {
+  margin-left: 10px;
+}
+
+.seeAllProfiles {
+  text-decoration: none;
+  color: #144272;
+  font-style: italic;
+  display: block;
+  margin: 0 0 20px 0;
+  flex: 0;
+}
+
+.seeAllProfiles:hover {
+  text-decoration: 1px solid underline;
+  text-underline-position: under;
+}
+
+.icon {
+  color: #144272;
+}
+
+.profileActivity {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts {
+  width: 950px;
+}
+
+.following {
+  width: 300px;
+  text-align: center;
+}
+
+.loading,
+.error {
+  font-size: 24px;
+  color: #144272;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media (max-width: 1350px) {
+  .singleProfileContainer {
+    width: 1100px;
+  }
+
+  .bannerContainer {
+    width: 400px;
+  }
+
+  .bannerContainer img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .singleProfileContainer {
+    width: 400px;
+  }
+
+  .profileTopContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bannerContainer {
+    order: -1;
+  }
+
+  .profileActivity {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .posts {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .following {
+    order: -1;
+  }
+
+  .followContainer {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .singleProfileContainer {
+    width: 250px;
+    padding: 40px 20px;
+  }
+
+  .bannerContainer {
+    width: 250px;
+  }
+
+  .bannerContainer img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .posts {
+    width: 250px;
+  }
+
+  .posts h2 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: center;
+  }
+}

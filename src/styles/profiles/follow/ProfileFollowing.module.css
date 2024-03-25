@@ -1,0 +1,25 @@
+.followingScroll {
+  max-height: 200px;
+  width: 250px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.following {
+  margin: 0 0 20px 0;
+  background-color: #bbd5ed;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.following img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.error {
+  color: darkred;
+}

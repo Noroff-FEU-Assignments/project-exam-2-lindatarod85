@@ -1,0 +1,22 @@
+.createPostButton {
+  background-color: #144272;
+  border-radius: 50px;
+  border: 2px solid #144272;
+  padding: 15px 30px;
+  color: white;
+  margin-left: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.createPostButton:hover,
+.activeButton {
+  background-color: #bbd5ed;
+  color: #144272;
+}
+
+@media (max-width: 1150px) {
+  .createPostButton {
+    margin-left: 0;
+  }
+}

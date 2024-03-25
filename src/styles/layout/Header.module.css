@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0174be;
+  padding: 10px 40px;
+}
+
+.logo {
+  color: white;
+}
+
+.logoLink {
+  text-decoration: none;
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
+
+@media (max-width: 500px) {
+  .logoLink {
+    font-size: 30px;
+  }
+}

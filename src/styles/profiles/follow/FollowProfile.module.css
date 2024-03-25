@@ -1,0 +1,23 @@
+.followButton {
+  background-color: #144272;
+  border: 2px solid #144272;
+  border-radius: 50px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.followButton:hover,
+.unfollowButton {
+  background-color: #bbd5ed;
+  color: #144272;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.errorMessage {
+  color: darkred;
+}

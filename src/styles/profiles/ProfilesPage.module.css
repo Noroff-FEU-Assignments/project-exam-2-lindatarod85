@@ -1,0 +1,50 @@
+.profilesContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 25px;
+  width: 1300px;
+  padding: 20px 40px;
+  margin-bottom: 80px;
+}
+
+.profilesContainer h1 {
+  grid-column: -1/1;
+}
+
+.loading,
+.error {
+  font-size: 24px;
+  color: #144272;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media (max-width: 1350px) {
+  .profilesContainer {
+    grid-template-columns: repeat(3, 1fr);
+    width: 970px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .profilesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    width: 650px;
+  }
+}
+
+@media (max-width: 700px) {
+  .profilesContainer {
+    grid-template-columns: repeat(1, 1fr);
+    width: 300px;
+    margin: 0 auto 80px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .profilesContainer {
+    width: 240px;
+    padding: 20px;
+  }
+}

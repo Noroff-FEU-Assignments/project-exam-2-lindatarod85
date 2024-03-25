@@ -1,0 +1,26 @@
+.commentsScroll {
+  max-height: 260px;
+  width: 200px;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+.comment {
+  margin: 0 0 20px 0;
+  background-color: #bbd5ed;
+  padding: 5px 0;
+}
+
+.commentsAuthor {
+  font-size: 12px;
+}
+
+.noComments,
+.loading,
+.error {
+  margin: 15px 0;
+}
+
+.error {
+  color: darkred;
+}

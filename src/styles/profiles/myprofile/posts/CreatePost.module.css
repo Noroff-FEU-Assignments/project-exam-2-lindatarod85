@@ -1,0 +1,90 @@
+.createPostForm {
+  background-color: #bbd5ed;
+  padding: 40px;
+  position: absolute;
+  bottom: 100%;
+}
+
+.createPostForm label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.createPostForm div {
+  margin-bottom: 30px;
+}
+
+.createPostForm input {
+  width: 600px;
+  height: 35px;
+  border: 2px solid #144272;
+}
+
+.createPostForm textarea {
+  width: 600px;
+  height: 70px;
+  border: 2px solid #144272;
+}
+
+.createPostForm button {
+  width: 120px;
+  border: 2px solid #144272;
+  background-color: #144272;
+  color: #f0f0f0;
+  border-radius: 50px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.createPostForm button:hover {
+  background-color: transparent;
+  color: #144272;
+}
+
+.error {
+  color: #940000;
+}
+
+.errorMessage {
+  color: darkred;
+  margin-top: 10px;
+}
+
+.successMessage {
+  color: darkgreen;
+  margin-top: 10px;
+}
+
+@media (max-width: 1150px) {
+  .createPostForm {
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 750px) {
+  .createPostForm input {
+    width: 400px;
+    height: 25px;
+  }
+
+  .createPostForm textarea {
+    width: 400px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .createPostForm input,
+  .createPostForm textarea {
+    width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .createPostForm {
+    padding: 40px 20px;
+  }
+}

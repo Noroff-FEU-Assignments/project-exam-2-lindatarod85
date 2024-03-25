@@ -1,0 +1,37 @@
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(6, 20px);
+  font-size: 25px;
+  column-gap: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.reactButton {
+  background-color: #144272;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: 2px solid #144272;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.reactButton:hover {
+  background-color: #bbd5ed;
+  color: #144272;
+}
+
+.reacted {
+  background-color: #bbd5ed;
+  font-weight: bold;
+  color: #144272;
+}
+
+.error {
+  margin-top: 15px;
+  text-align: center;
+  color: darkred;
+}

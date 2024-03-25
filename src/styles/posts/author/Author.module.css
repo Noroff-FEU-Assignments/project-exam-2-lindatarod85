@@ -1,0 +1,15 @@
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.author p {
+  font-size: 14px;
+}

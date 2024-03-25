@@ -1,0 +1,170 @@
+.myProfileContainer {
+  width: 1300px;
+  padding: 20px 40px;
+}
+
+.myAvatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.myAvatarContainer h2 {
+  margin-top: 0;
+}
+
+.myAvatarContainer img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.myProfileTopContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myBannerContainer img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.myFollowersContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myFollowersContainer h3 {
+  margin: 0 0 10px 0;
+}
+
+.createPostContainer {
+  display: flex;
+  align-items: center;
+}
+
+.myProfileActivity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.following {
+  width: 300px;
+  text-align: center;
+}
+
+.myPosts {
+  position: relative;
+}
+
+@media (max-width: 1350px) {
+  .myProfileContainer {
+    width: 1100px;
+  }
+
+  .myBannerContainer {
+    width: 400px;
+  }
+
+  .myBannerContainer img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .myProfileContainer {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .myProfileContainer h1 {
+    text-align: center;
+  }
+
+  .myProfileTopContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .myBannerContainer {
+    order: -1;
+  }
+
+  .myProfileActivity {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .myPosts {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .following {
+    order: -1;
+  }
+
+  .followContainer {
+    margin-top: 40px;
+  }
+
+  .loading,
+  .error {
+    font-size: 24px;
+    color: #144272;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .createPostContainer {
+    flex-direction: column;
+  }
+
+  .createPostContainer h2 {
+    order: 2;
+  }
+
+  .myFollowersContainer,
+  .following,
+  .myBannerContainer,
+  .myAvatarContainer {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .myProfileContainer {
+    width: 250px;
+    padding: 20px;
+  }
+
+  .myBannerContainer {
+    width: 250px;
+  }
+
+  .myBannerContainer img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .myPosts {
+    width: 250px;
+  }
+
+  .myPosts h2 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: center;
+  }
+}

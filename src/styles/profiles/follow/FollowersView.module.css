@@ -1,0 +1,34 @@
+.followersScroll {
+  max-height: 200px;
+  width: 250px;
+  overflow: auto;
+  margin: 0 0 15px 0;
+}
+
+.follower {
+  margin: 0 0 20px 0;
+  background-color: #bbd5ed;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.follower img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.noFollowers {
+  margin-bottom: 10px;
+}
+
+.loading,
+.error {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: darkred;
+}

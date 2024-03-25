@@ -1,0 +1,27 @@
+.editAvatarForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.editAvatarForm input {
+  border-color: #144272;
+  text-align: center;
+}
+
+.editAvatarForm button {
+  margin-top: 10px;
+  width: 80px;
+  align-self: center;
+  background-color: #144272;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.errorMessage {
+  color: darkred;
+  text-align: center;
+  margin-top: 10px;
+}
