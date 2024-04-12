@@ -7,7 +7,9 @@ const PageNotFound = () => {
     <div className={styles.notFoundContainer}>
       <h1>404 - Page Not Found</h1>
       <p>The page you are looking for does not exist.</p>
-      <Link className={styles.goHome} to="/">Go to Home Page</Link>
+      <Link className={styles.goHome} to="/">
+        Go to Home Page
+      </Link>
     </div>
   );
 };

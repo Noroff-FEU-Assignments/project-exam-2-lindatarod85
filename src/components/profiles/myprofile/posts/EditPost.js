@@ -77,7 +77,7 @@ const EditPost = ({ onEditPost }) => {
       });
 
       if (!response.ok) {
-        const errorResponse = await response.json();
+        //const errorResponse = await response.json();
         setResultMessage({
           success: false,
           message: `Failed to edit post`,

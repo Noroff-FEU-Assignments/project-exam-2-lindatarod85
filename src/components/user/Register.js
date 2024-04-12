@@ -45,7 +45,7 @@ const RegisterForm = () => {
         throw new Error("Network response was not ok");
       }
 
-      const json = await response.json();
+      //const json = await response.json();
 
       setResult({
         success: true,
