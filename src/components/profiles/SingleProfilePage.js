@@ -230,7 +230,7 @@ const SingleProfile = () => {
     return <div className={styles.error}>An Error Occurred</div>;
   }
 
-  const { banner, avatar, _count } = data;
+  const { banner, avatar } = data;
   //const { followers } = _count || { followers: 0 };
 
   const placeholderAvatarUrl =

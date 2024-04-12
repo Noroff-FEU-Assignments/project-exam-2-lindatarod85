@@ -423,7 +423,7 @@ const SinglePost = () => {
     return <div className={styles.error}>An Error Occurred</div>;
  }
 
- const { title, body, _count } = data;
+ const { title, body } = data;
 
  const handleEditPost = () => {
     fetchData();

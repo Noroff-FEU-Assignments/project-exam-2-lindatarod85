@@ -5,7 +5,6 @@ import { baseUrl } from "../../../../settings/api";
 import { useMyAuth } from "../../../../settings/auth";
 import styles from "../../../../styles/profiles/myprofile/posts/CreatePost.module.css";
 import { Helmet } from "react-helmet-async";
-import { useParams } from "react-router-dom";
 import * as Yup from "yup";
 
 const validationSchema = Yup.object().shape({

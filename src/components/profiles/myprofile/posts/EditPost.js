@@ -28,7 +28,7 @@ const EditPost = ({ onEditPost }) => {
   const { id: postId } = useParams();
 
   const [resultMessage, setResultMessage] = useState(null);
-  const [currentPost, setCurrentPost] = useState(null);
+  const [setCurrentPost] = useState(null);
 
   useEffect(() => {
     const fetchPostData = async () => {
