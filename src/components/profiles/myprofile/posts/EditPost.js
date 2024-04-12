@@ -322,7 +322,6 @@ const EditPost = ({ onEditPost }) => {
   const { id: postId } = useParams();
 
   const [resultMessage, setResultMessage] = useState(null);
-  const [currentPost, setCurrentPost] = useState(null);
 
   useEffect(() => {
     const fetchPostData = async () => {
@@ -341,7 +340,6 @@ const EditPost = ({ onEditPost }) => {
         }
 
         const postData = await response.json();
-        setCurrentPost(postData);
 
         setValue("title", postData.title);
         setValue("body", postData.body);
@@ -352,7 +350,7 @@ const EditPost = ({ onEditPost }) => {
     };
 
     fetchPostData();
-  }, [postId, authToken, setValue, setCurrentPost]);
+  }, [postId, authToken, setValue]);
 
   const onSubmit = async (data) => {
     try {
@@ -371,7 +369,6 @@ const EditPost = ({ onEditPost }) => {
       });
 
       if (!response.ok) {
-        //const errorResponse = await response.json();
         setResultMessage({
           success: false,
           message: `Failed to edit post`,
@@ -437,5 +434,6 @@ const EditPost = ({ onEditPost }) => {
 };
 
 export default EditPost;
+
 
 
