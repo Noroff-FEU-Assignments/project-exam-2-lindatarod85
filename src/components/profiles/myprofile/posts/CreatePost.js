@@ -23,8 +23,6 @@ const CreatePost = ({ onNewPost }) => {
     resolver: yupResolver(validationSchema),
   });
 
-  //const { name: profileName } = useParams();
-
   const [resultMessage, setResultMessage] = useState(null);
 
   const onSubmit = async (data) => {
@@ -44,7 +42,6 @@ const CreatePost = ({ onNewPost }) => {
       });
 
       if (!response.ok) {
-        //const errorResponse = await response.json();
         setResultMessage({
           success: false,
           message: `Failed to create post`,
