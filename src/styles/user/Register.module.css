@@ -64,5 +64,6 @@
 @media (max-width: 500px) {
   .registerContainer {
     width: 200px;
+    margin: 20px auto 80px auto;
   }
 }
