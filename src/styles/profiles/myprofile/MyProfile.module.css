@@ -147,6 +147,7 @@
   .myProfileContainer {
     width: 250px;
     padding: 20px;
+    overflow: hidden;
   }
 
   .myBannerContainer {
