@@ -55,7 +55,7 @@ const SinglePost = () => {
       const { comments, reactions } = _count;
 
       setCommentsCount(comments !== undefined ? comments : 0);
-      setReactionsCount(reactions !== undefined ? reactions : 0); // Directly update reactionsCount
+      setReactionsCount(reactions !== undefined ? reactions : 0);
       setData(result);
       setIsLoading(false);
       setIsError(false);
