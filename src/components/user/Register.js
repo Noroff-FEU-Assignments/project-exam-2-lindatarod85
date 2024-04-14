@@ -78,17 +78,17 @@ const RegisterForm = () => {
       <h1>Register</h1>
       <form className={styles.registerForm} onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="name">User Name:</label>
-        <input {...register("name")} placeholder="Name" />
+        <input {...register("name")} placeholder="User Name" />
         {errors.name && <p className={styles.error}>{errors.name.message}</p>}
 
         <label htmlFor="email">Email:</label>
-        <input {...register("email")} placeholder="Email" />
+        <input {...register("email")} placeholder="Must be a noroff email" />
         {errors.email && <p className={styles.error}>{errors.email.message}</p>}
 
         <label htmlFor="password">Password:</label>
         <input
           {...register("password")}
-          placeholder="Password"
+          placeholder="Must be at least 8 characters"
           type="password"
         />
         {errors.password && (
